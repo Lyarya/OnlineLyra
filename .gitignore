@@ -1,0 +1,28 @@
+.DS_Store
+__pycache__/
+.ruff_cache/
+*.py[cod]
+
+# Local datasets and generated experiment artifacts.
+dataset/
+solar_stations/
+external/
+*.zip
+checkpoints/
+results/
+/results.csv
+outputs/
+*.npy
+*.pth
+
+# Common logs and local environment files.
+*.log
+*.pdf
+.env
+.venv/
+venv/
+
+# Local plotting caches and scratch workspaces.
+.mplconfig/
+.nature-figure.json
+tmp/

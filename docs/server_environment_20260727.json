@@ -1,0 +1,29 @@
+{
+  "captured_at": "2026-07-27T03:38:02+08:00",
+  "os": "Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "ubuntu": "Ubuntu 22.04.5 LTS",
+  "kernel": "5.15.0-78-generic",
+  "allocated_cpu_cores": 12.0,
+  "cgroup_cpu_max": "1200000 100000",
+  "allocated_memory_bytes": 66571993088,
+  "host_cpu_model": "Intel(R) Xeon(R) Platinum 8260 CPU @ 2.40GHz",
+  "gpu": {
+    "name": "NVIDIA GeForce RTX 3090",
+    "driver": "580.105.08",
+    "memory_mib": 49152,
+    "power_limit_w": 350.0,
+    "compute_capability": "8.6",
+    "nvidia_smi_cuda_compatibility": "13.0"
+  },
+  "python": "3.12.3",
+  "pytorch": "2.7.0+cu128",
+  "pytorch_cuda_runtime": "12.8",
+  "cudnn": 90701,
+  "cuda_available": true,
+  "numpy": "2.2.6",
+  "pandas": "3.0.2",
+  "scipy": "1.17.1",
+  "scikit_learn": "1.8.0",
+  "openpyxl": "3.1.5",
+  "host_logical_cpu_count": 96
+}

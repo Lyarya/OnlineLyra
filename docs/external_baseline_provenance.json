@@ -1,0 +1,55 @@
+{
+  "description": "Baseline revisions and model-file hashes recorded for the reported experiments.",
+  "records": [
+    {
+      "name": "LTSF-Linear",
+      "model_file_sha256": {
+        "models/Linear.py": "1c583fb30ecbeb82e27926d886088543b6cd3b0b911c56bd0a5ff97d78f53142",
+        "models/NLinear.py": "cabdcf5ac2658faa45b8887846182d222eb0a98c42059079c533df0fe689d879",
+        "models/DLinear.py": "0893b53cb6473d6bdca7aeca514cb3ee12efa6df227c29c4469571c9711451cc"
+      }
+    },
+    {
+      "name": "MixLinear",
+      "upstream_repository": "https://github.com/aitianma/MixLinear.git",
+      "revision": "71b5db62e38b1cb108faa1e1d4687287b4568f3b",
+      "model_file_sha256": {
+        "models/MixLinear.py": "6546c25174d09b4028d6b9b760e3841ae7a77c5ec42c1b5345883320777221b9"
+      }
+    },
+    {
+      "name": "Olivia",
+      "upstream_repository": "https://github.com/TSTS13/Olivia.git",
+      "revision": "a7fffbfdf2ad98f661e0a652021b97b36e8496ea",
+      "model_file_sha256": {
+        "models/Olivia.py": "0977621bf70e96ccd226c668a987858a486e1945b95f330e6607b8ba704f7d33"
+      }
+    },
+    {
+      "name": "PatchTST",
+      "model_file_sha256": {
+        "PatchTST_supervised/models/PatchTST.py": "49d8bb865e1226d6338842f4b33c4bc6992cefb048dc2a4a5a8c410ca708586b"
+      }
+    },
+    {
+      "name": "PhaseFormer_TSL",
+      "upstream_repository": "https://github.com/neumyor/PhaseFormer_TSL.git",
+      "revision": "ed1db61c6abfa9326d5ca2a56c6c4ba53ea592ab",
+      "model_file_sha256": {
+        "models/PhaseFormer.py": "1d19a3662c8badf2c009f7e1d7801b86f175207f05ccfa5f32c497dffd6a0a2e"
+      }
+    },
+    {
+      "name": "TimeKAN",
+      "model_file_sha256": {
+        "models/TimeKAN.py": "0876106c4ddffc6a9158a777706c7ef7bf36a4026325464cf200f5901d8a936f"
+      }
+    },
+    {
+      "name": "iTransformer",
+      "model_file_sha256": {
+        "model/iTransformer.py": "6f34777a5a12c253a293f79e7e1fd5b6f79ac100b443951e051e269e7e2542db"
+      }
+    }
+  ]
+}
