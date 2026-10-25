@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+*.csv
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.xlsx
+*.xls
+.mypy_cache/
+.ruff_cache/
